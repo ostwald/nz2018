@@ -1,0 +1,147 @@
+body {
+  font-family:arial;
+  background-image:url("assets/dust_scratches.png");
+  background-repeat: repeat;
+  /* background-image:url("assets/LightGray_desktop-1.png");*/
+
+}
+
+#layout {
+    margin:20px;
+    padding:10px;
+    background:transparent;
+}
+
+#nz-map {
+    position:absolute;
+    top:50px;
+    left:200px;
+}
+
+#banner {
+    position:relative;
+    margin-bottom:20px;
+}
+
+#banner img {
+    height:75px;
+}
+
+
+#banner-text {
+    position:absolute;
+    top:18px;
+    font-size:1.2em;
+    left:90px;
+}
+
+.header {
+    font-size:0.85em;
+    font-weight:bold;
+    color:gray;
+}
+
+table.albums {
+    border-collapse:collapse;
+    background:transparent;
+    padding:20px;
+}
+
+#index table.albums tr {
+    margin:0;
+    padding:0;
+}
+
+#index table.albums td {
+    padding:0;
+    margin:0;
+}
+
+#index table.albums td.bullet {
+    text-align:center;
+}
+
+#index table.albums .bullet img{
+    height:40px;
+}
+
+#index .albums .title {
+    cursor:pointer;
+    padding:0px;
+    font-size:1.2em;
+    font-weight:normal;
+    white-space:nowrap;
+}
+
+#index .albums tr:hover {
+    text-decoration:underline;
+}
+
+#index .albums .comment {
+    font-style:italic;
+}
+
+.album-nav {
+    float:right;
+}
+
+.nav-link.inactive {
+    color:gray;
+}
+
+.nav-link.active:hover {
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+#album h2 {
+    margin:0px;
+}
+
+#routeburn img{
+    box-shadow:2px 2px 2px black;
+    width:95%;
+    max-width:1112px;
+}
+
+#album .dates {
+    padding:3px 0 10px;
+}
+
+#album .thumbnails {
+    text-align:center;
+}
+
+#album .thumb-wrapper {
+    display:inline-block;
+    text-align:center;
+    margin:10px;
+    /*border:thin solid black;*/
+    background:transparent;
+    padding-bottom:10px;
+        vertical-align:top;
+}
+
+#album .thumb-wrapper .comment{
+    padding:5px;
+    width:275px;
+    font-size:.85em;
+    text-align:center;
+}
+
+#album .thumb-wrapper .date{
+    display:none;
+    font-size:.7em;
+}
+
+#album img.thumbnail {
+   /* max-width:200px;*/
+    max-height:200px;
+    border:10px white solid;
+    box-shadow:2px 2px 2px black;
+}
+
+.nz-variant .featherlight-close-icon {
+    top:3px;
+    right:20px;
+}

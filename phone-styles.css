@@ -1,0 +1,52 @@
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+
+    body {
+        margin:0;
+    }
+
+    #layout {
+        margin:0px;
+    }
+
+    #banner {
+        position:relative;
+        width:95%;
+        margin:0 auto 20px auto;
+    }
+
+    #banner img {
+        height:50px;
+    }
+
+    #banner-text {
+        position:absolute;
+        top:0px;
+        font-size:1.2em;
+        left:50px;
+        text-align:center;
+    }
+
+    .thumb-wraper {
+        margin:10px 0;
+    }
+
+    img.thumbnail{
+        max-width:230px;
+    }
+
+    #nz-map {
+        position:absolute;
+        top:455px;
+        left:10px;
+        max-width:300px
+    }
+
+    .album-nav.bottom {
+        padding-bottom:20px;
+    }
+
+}
